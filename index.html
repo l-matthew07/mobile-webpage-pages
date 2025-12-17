@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Things - Excalidraw Library</title>
+    <title>Mobile Page Icons - Excalidraw Library</title>
     
     <style>
         * {
@@ -34,14 +34,18 @@
             width: 80px;
             height: 80px;
             margin: 0 auto 20px;
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(10px);
             border-radius: 20px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 40px;
             animation: float 3s ease-in-out infinite;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 20px;
         }
 
         @keyframes float {
@@ -285,9 +289,10 @@
 <body>
     <div class="container">
         <header>
-            <div class="logo">🎨</div>
-            <h1>Color Things</h1>
-            <p class="subtitle">A vibrant collection of colorful design elements for Excalidraw</p>
+            <div class="logo">
+                <img src="Logo-square-1000px-transparent-background.png" alt="Logo" />
+            </div>
+            <h1>Mobile Webpages</h1>
             
             <div class="cta-buttons">
                 <a href="https://excalidraw.com/?addLibrary=https%3A%2F%2Fraw.githubusercontent.com%2Fexcalidraw%2Fexcalidraw-libraries%2Fa13-color-things-1761270169881%2Flibraries%2Fa13%2Fcolor-things.excalidrawlib%3Fraw%3Dtrue" class="btn btn-primary">Add to Excalidraw</a>
